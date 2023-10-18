@@ -18,8 +18,10 @@ int flags, int width, int precision, int size)
 {
 	char c = va_arg(types, int);
 
+
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
+
 
 /**
  * print_string - Prints a string
